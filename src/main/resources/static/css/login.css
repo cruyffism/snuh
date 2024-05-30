@@ -1,0 +1,132 @@
+/*---------------- 로그인 ------------------ */
+#mainStyle {
+    width: 1000px;
+    margin: 0 auto;
+    height: 550px;
+}
+
+.loginNotice {
+    text-align: center;
+    margin: 80px;
+}
+
+.loginNotice > h2{
+    margin-bottom: 30px;
+}
+
+#loginWrap {
+    display: flex;
+}
+
+#leftBox {
+    width: 50%;
+}
+
+#leftBox div {
+    display: block;
+    margin: 15px 0;
+    height: 50px;
+}
+
+#login_inputID,
+#login_inputPW,
+#loginBt {
+    border: 1px solid #d9d9d9;
+    padding: 0 20px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#loginBt {
+    color: white;
+    background-color: #2d58b5;
+}
+
+#v-line{
+    border: 1px solid darkgray;
+    height : 200px;
+    margin: 40px 30px;
+}
+
+#bts {
+    padding: 0;
+}
+
+#bts input {
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    padding: 0 20px;
+    width: 48%;
+    display: block;
+    height: 50px;
+    text-align: right;
+}
+
+#naverBt {
+    background-color: #00ad00 !important;
+    background: url(../images/naver.png) center left 30px/10% no-repeat;
+    color: white;
+    float: left;
+}
+
+#kakaoBt {
+    background-color: #f9e000 !important;
+    background: url(../images/kakao.png) center left 30px/10% no-repeat;
+    color: #371c1d;
+    float: right;
+}
+
+#rightBox {
+    width: 50%;
+}
+
+#askInfo1{
+    margin: 10px 0px 15px 0px;
+}
+
+
+#askInfo2{
+    margin: 10px 0px 25px 0px;
+}
+
+#bts2 {
+    margin-bottom: 40px;
+    padding: 0;
+    display: flex;
+}
+
+#bts2 input {
+    border: 1px solid #d9d9d9;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 0 10px;
+    width: 48%;
+    display: block;
+    height: 50px;
+    text-align: center;
+}
+
+#findID{
+    margin-right: 18px;
+}
+
+#rightBox>div>h5 {
+    font-size: 18px;
+}
+
+#smText {
+    font-size: 12px;
+}
+
+#signBt {
+    color: white;
+    background-color: #2d58b5;
+    border: 1px solid #d9d9d9;
+    padding: 0 20px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+}

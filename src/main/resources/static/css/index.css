@@ -1,0 +1,297 @@
+/*---------------- banner ------------------ */
+
+#carouselText>h1 {
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+#carouselImg {
+    height: 450px;
+}
+
+#searchBox {
+    width: 100%;
+    background-color: #2d58b5;
+    margin: 0 0 1.5rem 0;
+    height: 55px;
+}
+
+/* 돋보기 태그 넣기 */
+#innerSearchBox { 
+    position: relative;
+    width: 300px;
+}
+
+#inputBox {
+    width: 100%;
+}
+
+#inputBox::placeholder {
+    text-align: center;
+}
+
+#icon {
+    position: absolute;
+    width: 27px;
+    top: 10px;
+    right: 12px;
+    margin: 0;
+    cursor: pointer;
+}
+
+
+/*---------------- main ------------------ */
+#mainStyle {
+    width: 1220px;
+    margin: 0 auto;
+    height: 1072px;
+}
+
+#mainTitle {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#mainServiceBox {
+    margin: 30px auto;
+    width: 100%;
+    height: 198px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#mainServiceBox>ul {
+    list-style: none;
+}
+
+.iconHover {
+    text-decoration: none;
+    color: black;
+    width: 20%;
+    height: 68px;
+    float: left;
+    text-align: center;
+    padding-top: 130px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.doctor {
+    background: url(../images/doctor.png) center center/35% no-repeat;
+}
+
+
+.reservationInquiry {
+    background: url(../images/Reservation_inquiry.png) center center/35% no-repeat;
+}
+
+.medicalAppointment {
+    background: url(../images/medical_appointment.png) center center/35% no-repeat;
+}
+
+.TelephoneConsultation {
+    background: url(../images/Telephone_consultation.png) center center/35% no-repeat;
+}
+
+.myChart {
+    background: url(../images/my_chart.png) center center/35% no-repeat;
+}
+
+#mainServiceButton {
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+#mainServiceButton>ul {
+    list-style: none;
+    padding: 0;
+}
+
+.serviceButton {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+    color: white;
+    float: left;
+    width: 300px;
+    height: 90px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2d58b5 !important;
+    line-height: 90px;
+    margin: 10px 50px;
+    padding-left: 50px;
+}
+
+.print {
+    background: url(../images/print.png) right 20px top 20px/20% no-repeat;
+}
+
+.myVideo {
+    background: url(../images/my_video.png) right 20px top 20px/20% no-repeat;
+}
+
+.payment {
+    background: url(../images/payment.png) right 20px top 20px/20% no-repeat;
+}
+
+#mainTitle2 {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+#mainTitle2>h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.cmVideo {
+    display: flex;
+}
+
+.box {
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px 110px;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.box>h3 {
+    margin-bottom: 20px;
+}
+
+#sub {
+    padding-top: 10px;
+    margin-bottom: 80px;
+}
+
+#sub>p {
+    width: 179px; 
+    font-size: 13;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.box1 {
+    margin-right: 40px;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    display: flex
+}
+
+/*  */
+.w-60 {
+    width: 100% !important;
+    height: 140px;
+}
+
+.carousel-caption {
+    bottom: 0;
+    padding-bottom: 0;
+}
+
+.carousel1 {
+    margin-right: 10px;
+}
+
+/* .arr span {
+    position: relative;
+}
+
+.arr span::after {
+    content: '';
+    width: 20px; 
+    height: 20px;
+    border-top: 3px solid #121212;
+    border-right: 3px solid #121212;
+    display: inline-block;
+    transform: rotate(225deg);
+    position: absolute;
+    right: 220px;
+    top: 70px;
+}
+
+.arr2 span {
+    position: relative;
+}
+
+.arr2 span::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-top: 3px solid #121212;
+    border-right: 3px solid #121212;
+    display: inline-block;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 220px;
+    top: 70px;
+} */
+
+#circleBox {
+    margin: 30px auto;
+    width: 100%;
+    height: 198px;
+    overflow: hidden;
+}
+
+#circleBox>ul {
+    list-style: none;
+}
+
+.circleText {
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.link1 {
+    background: url(../images/link1.png) center center no-repeat;
+}
+
+.link2 {
+    background: url(../images/link2.png) center center no-repeat;
+}
+
+.link3 {
+    background: url(../images/link3.png) center center no-repeat;
+}
+
+.link4 {
+    background: url(../images/link4.png) center center no-repeat;
+}
+
+.link5 {
+    background: url(../images/link5.png) center center no-repeat;
+}
+
+.link6 {
+    background: url(../images/link6.png) center center no-repeat;
+}
